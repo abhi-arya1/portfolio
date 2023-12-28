@@ -27,9 +27,6 @@ const Sidebar: React.FC<SidebarProps> = ({ setActivePane }) => {
             ))}
             <EmptyBorderedButton />
             <EmptyBorderedButton />
-            <EmptyBorderedButton />
-            <EmptyBorderedButton />
-            <EmptyBorderedButton />
         </div>
     );
     };

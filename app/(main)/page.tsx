@@ -58,7 +58,8 @@ export default function Home() {
           >
             experience...
           </div>
-          <div className="flex p-5">
+
+          <div className="flex p-5 w-[60%]">
               <Sidebar setActivePane={setActivePane} />
               <ContentPane activePane={activePane} />
           </div>
