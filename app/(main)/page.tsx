@@ -1,3 +1,5 @@
+"use client";
+
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
@@ -14,6 +16,7 @@ export default function Home() {
 
         <div className="h-full flex flex-col items-center justify-center
         md:justify-start text-center gap-y-8 flex-1 px-6 pb-10 pt-20">
+
           <div className="font-extrabold text-6xl">
           hi, i&apos;m <div className="underline italic pt-2">abhigyan arya</div>
           </div>
