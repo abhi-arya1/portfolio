@@ -6,14 +6,10 @@ import Image from "next/image";
 import Typewriter from 'typewriter-effect';
 import hero_image from "@/public/hero_image.png"
 import Projects from "@/components/projects";
-import dynamic from "next/dynamic";
 
 
 export default function Home() {
   const IMAGE_DIMENSION = 200;
-  const Box = dynamic(() => import("@/components/box"), {
-    ssr: false,
-    });
 
   return (
       <div className="flex flex-col min-h-screen">
@@ -52,7 +48,7 @@ export default function Home() {
           />
 
           <div
-          className="text-3xl font-bold pt-15 underline"
+          className="text-3xl font-bold pt-25 underline"
           id="experience"
           >
             experience...

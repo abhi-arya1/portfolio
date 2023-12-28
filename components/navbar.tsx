@@ -1,15 +1,21 @@
 "use client";
 
 import { Home, ScrollTextIcon, Code, FlaskConical } from "lucide-react";
-import Link from "next/link";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
+import { useScrollTop } from "@/hooks/scroll_hook";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const router = useRouter();
+  const scrolled = useScrollTop();
 
   return (
-    <div className="flex flex-row justify-between pt-2 pl-2 pr-2">
+    <div className={cn(
+      "z-50 bg-[#000000] fixed top-0 flex flex-row justify-between items-center w-full p-2.5",
+      scrolled && "border-b border-[#3F3F3F] shadow-sm transition-opacity"
+    )}>
+
 
       <Button
       onClick={() => {router.push("/")}}
