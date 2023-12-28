@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="relative flex flex-col gap-x-5 justify-center items-center pt-10">
           <p className="text-sm pt-5">
             Built by Abhigyan Arya, {new Date().getFullYear()}
-          </p>
-          <div className="flex gap-x-2 pr-5 pt-2 pb-5">
+            </p>
+          <div className="flex flex-row gap-x-2 pt-2 pb-5">
 
             <Button 
             onClick={() => {open("https://www.linkedin.com/in/abhiaarya/")}}
