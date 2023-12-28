@@ -7,8 +7,9 @@ export default function Home() {
       <div className="h-full flex flex-col">
         <Navbar />
 
-        <div>
-            About Me
+        <div className="h-full flex flex-col items-center justify-center
+        md:justify-start text-center gap-y-8 flex-1 px-6 pb-10 pt-20">
+          About Me
         </div>
         
         <Footer />
