@@ -10,11 +10,12 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-row justify-between pt-2 pl-2 pr-2">
+
       <Button
       onClick={() => {router.push("/")}}
       >
         <Home className="h-4 w-4" />
-        <p className="pl-1">home</p>
+        {/* <p className="pl-1">home</p> */}
       </Button>
 
       <div className="flex gap-x-2">
