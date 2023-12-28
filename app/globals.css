@@ -10,9 +10,19 @@ body,
 }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+.arrow-li {
+  list-style-type: none;
+}
+
+.arrow-li::before {
+  content: '>>>';
+  color: red;
+  margin-right: 0.5rem;
 }
 
 body {
@@ -24,3 +34,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/*
+
+color palette
+
+green #30fe00
+blue #4700fe
+yellow #e3ff00
+red #ff002f
+black #101010

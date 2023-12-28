@@ -16,13 +16,13 @@ export default function Home() {
         <Navbar />
 
         <div className="h-full flex flex-col items-center justify-center
-        md:justify-start text-center gap-y-8 flex-1 px-6 pb-10 pt-20">
+        md:justify-start text-center gap-y-8 flex-1 px-6 pb-20 pt-20">
 
           <div className="font-extrabold text-6xl">
           <Typewriter
             onInit={(typewriter) => {
-              typewriter.typeString("hi, i'm<br>")
-                .typeString('<span style="text-decoration: underline; font-weight: bold;">abhigyan arya</span>')
+              typewriter.typeString("hi, i'm ")
+                .typeString('<span style="text-decoration: underline; color: rgb(0, 255, 0); font-weight: bold;">abhi</span>')
                 .typeString('.')
                 .callFunction(() => {
                   typewriter.stop();
@@ -32,8 +32,12 @@ export default function Home() {
           />
           </div>
           <div className="font-bold text-xl">
-          • computer science & engineering student at uc irvine <br />
-          • full stack and embedded software developer <br />
+          <li className="arrow-li text-[#c8d5e6]">
+            computer science & engineering (b.sc.) <a className="text-slate-400">@</a> uc irvine
+          </li>
+          <li className="arrow-li text-slate-400">
+            full stack and embedded software developer
+          </li>
           </div>
 
           <Image
@@ -44,11 +48,23 @@ export default function Home() {
           />
 
           <div
-          className="text-3xl font-bold pt-20 underline"
-          id="projects"
+          className="text-3xl font-bold pt-15 underline"
+          id="experience"
           >
-            projects
+            experience
           </div>
+
+          <div id="projects">
+            <div
+            className="text-3xl font-bold pt-10 pb-10 underline"
+            >
+              projects
+            </div>
+            <div>
+              Box 1
+            </div>
+          </div>
+
 
         </div>
 

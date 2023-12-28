@@ -4,8 +4,10 @@ import { Github, Linkedin, Mail, SunMediumIcon } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Footer = () => {
+
     return (
       <>
+        <div className="pt-30" />
         <hr />
         <div className="flex flex-col gap-x-5 justify-center items-center">
           <p className="text-sm pt-5">

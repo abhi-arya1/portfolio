@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, ScrollTextIcon, Code } from "lucide-react";
+import { Home, ScrollTextIcon, Code, FlaskConical } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
@@ -20,17 +20,24 @@ const Navbar = () => {
 
       <div className="flex gap-x-2">
         <Button
+        onClick={() => {router.push("/#experience")}}
+        >
+          <FlaskConical className="h-4 w-4" />
+          <p className="pl-2">experience</p>
+        </Button>
+
+        <Button
         onClick={() => {router.push("/#projects")}}
         >
           <Code className="h-4 w-4" />
-          <p className="pl-1">projects</p>
+          <p className="pl-2">projects</p>
         </Button>
 
         <Button
         onClick={() => open("https://drive.google.com/file/d/1sM6VJEPz_oar718KaT88HC0niAlitGLl/view?usp=sharing")}
         >
           <ScrollTextIcon className="h-4 w-4" />
-          <p className="pl-1">resume</p>
+          <p className="pl-2">resume</p>
         </Button>
       </div>
     </div>
