@@ -1,4 +1,3 @@
-/* trunk-ignore-all(prettier) */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,6 +19,7 @@ body,
 }
 
 .arrow-li::before {
+  font-family: 'Courier New', Courier, monospace;
   content: '>>>';
   color: red;
   margin-right: 0.5rem;

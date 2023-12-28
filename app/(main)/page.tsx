@@ -16,7 +16,7 @@ export default function Home() {
   const [activePane, setActivePane] = useState<string>('');
 
   return (
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen font-mono">
         <Navbar />
 
         <div className="h-full flex flex-col items-center justify-center
@@ -35,13 +35,14 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="font-bold text-xl">
-          <li className="arrow-li text-[#c8d5e6]">
-            computer science & engineering (b.sc.) <a className="text-slate-400">@</a> uc irvine
-          </li>
-          <li className="arrow-li text-slate-400">
-            full stack and embedded software developer
-          </li>
+
+          <div className="font-bold text-xl text-left">
+            <li className="arrow-li text-[#c8d5e6]">
+              computer science & engineering (b.sc.) <a className="text-slate-400">@</a> uc irvine
+            </li>
+            <li className="arrow-li text-slate-400">
+              full stack and embedded software developer
+            </li>
           </div>
 
           <Image
@@ -62,7 +63,7 @@ export default function Home() {
               <ContentPane activePane={activePane} />
           </div>
 
-          <div id="projects">
+          <div id="projects" className="w-250">
             <Projects />
           </div>
 

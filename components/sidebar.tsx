@@ -15,11 +15,11 @@ const Sidebar: React.FC<SidebarProps> = ({ setActivePane }) => {
     ]
     
     return (
-        <div className="flex flex-col w-80 px-2 truncate">
+        <div className="flex flex-col w-80 px-2">
             {buttons.map(button => (
                 <Button
                 key={button.id}
-                className={`hover:bg-gray-800 px-4 bg-transparent underline py-2 rounded-none ${activeButton === button.id ? 'border-r-4 border-r-[#4700fe] bg-gray-800 hover:bg-gray-900' : 'rounded-none border-r-4 border-r-gray-900'}`}
+                className={`rounded-sm hover:bg-[#4700fe]/10 px-4 bg-transparent py-2 ${activeButton === button.id ? 'border-r-4 border-r-[#4700fe] text-[#00e9fe] bg-[#4700fe]/30 hover:bg-[#4700fe]/20' : 'rounded-none border-r-4 border-r-gray-900'}`}
                 onClick={() => { setActivePane(button.id); setActiveButton(button.id) }}
                 >
                     {button.name}

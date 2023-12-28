@@ -19,6 +19,7 @@ const Navbar = () => {
 
       <Button
       onClick={() => {router.push("/")}}
+      className="bg-[#101010] hover:bg-[#1b1b1b] hover:text-[#00e9fe]"
       >
         <Home className="h-4 w-4" />
         {/* <p className="pl-1">home</p> */}
@@ -27,6 +28,8 @@ const Navbar = () => {
       <div className="flex gap-x-2">
         <Button
         onClick={() => {router.push("/#experience")}}
+        variant="ghost"
+        className="hover:text-[#00e9fe]"
         >
           <FlaskConical className="h-4 w-4" />
           <p className="pl-2">experience</p>
@@ -34,6 +37,8 @@ const Navbar = () => {
 
         <Button
         onClick={() => {router.push("/#projects")}}
+        variant="ghost"
+        className="hover:text-[#00e9fe]"
         >
           <Code className="h-4 w-4" />
           <p className="pl-2">projects</p>
@@ -41,6 +46,7 @@ const Navbar = () => {
 
         <Button
         onClick={() => open("https://drive.google.com/file/d/1sM6VJEPz_oar718KaT88HC0niAlitGLl/view?usp=sharing")}
+        className="bg-[#101010] hover:bg-[#1b1b1b] hover:text-[#00e9fe]"
         >
           <ScrollTextIcon className="h-4 w-4" />
           <p className="pl-2">resume</p>

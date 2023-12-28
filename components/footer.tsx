@@ -1,7 +1,7 @@
 "use client"; 
 
-import { Github, Linkedin, Mail, SunMediumIcon } from "lucide-react";
 import { Button } from "./ui/button";
+import { GitHub, LinkedIn, Mail } from "@mui/icons-material";
 
 const Footer = () => {
 
@@ -16,20 +16,23 @@ const Footer = () => {
             <Button 
             onClick={() => {open("https://www.linkedin.com/in/abhiaarya/")}}
             variant="ghost"
+            className="hover:text-[#006efe]"
             >
-                <Linkedin className="h-5 w-5" />
+                <LinkedIn className="h-5 w-5" />
             </Button>
 
             <Button
             onClick={() => {open("https://github.com/abhi-arya1")}}
             variant="ghost"
+            className="hover:text-[#006efe]"
             >
-                <Github className="h-5 w-5" />
+                <GitHub className="h-5 w-5" />
             </Button>
 
             <Button
             onClick={() => {open("mailto:abhigyaa@uci.edu")}}
             variant="ghost"
+            className="hover:text-[#006efe]"
             >
                 <Mail className="h-5 w-5" />
             </Button>
