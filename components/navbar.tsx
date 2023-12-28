@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, ScrollTextIcon, Smile } from "lucide-react";
+import { Home, ScrollTextIcon, Code } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
@@ -19,10 +19,10 @@ const Navbar = () => {
 
       <div className="flex gap-x-2">
         <Button
-        onClick={() => {router.push("/about")}}
+        onClick={() => {router.push("/#projects")}}
         >
-          <Smile className="h-4 w-4" />
-          <p className="pl-1">about me</p>
+          <Code className="h-4 w-4" />
+          <p className="pl-1">projects</p>
         </Button>
 
         <Button

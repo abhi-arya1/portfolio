@@ -43,11 +43,12 @@ export default function Home() {
           height={IMAGE_DIMENSION}
           />
 
-          {/* <div
+          <div
           className="text-3xl font-bold pt-20 underline"
+          id="projects"
           >
             projects
-          </div> */}
+          </div>
 
         </div>
 
