@@ -7,9 +7,7 @@ const Footer = () => {
 
     return (
       <>
-        <div className="pt-30" />
-        <hr />
-        <div className="flex flex-col gap-x-5 justify-center items-center">
+        <div className="relative flex flex-col gap-x-5 justify-center items-center pt-10">
           <p className="text-sm pt-5">
             Built by Abhigyan Arya, {new Date().getFullYear()}
           </p>
