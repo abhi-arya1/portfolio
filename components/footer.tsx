@@ -8,17 +8,10 @@ const Footer = () => {
       <>
         <hr/>
         <div className="flex gap-x-5 justify-between">
-          <p className="text-opacity-40 text-xl pl-4 pt-6">
+          <p className="text-opacity-40 text-sm pl-4 pt-8">
             © {new Date().getFullYear()} Abhigyan Arya
           </p>
           <div className="flex gap-x-2 pr-5 pt-4 pb-5">
-
-            <Button
-            onClick={() => {open("https://github.com/abhi-arya1/personal-portfolio")}}
-            className="bg-slate-950 hover:bg-slate-800"
-            >
-                Site GitHub
-            </Button>
 
             <Button 
             onClick={() => {open("https://www.linkedin.com/in/abhiaarya/")}}
