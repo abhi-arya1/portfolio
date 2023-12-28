@@ -25,8 +25,20 @@ const Sidebar: React.FC<SidebarProps> = ({ setActivePane }) => {
                     {button.name}
                 </Button>
             ))}
+            <EmptyBorderedButton />
+            <EmptyBorderedButton />
+            <EmptyBorderedButton />
+            <EmptyBorderedButton />
+            <EmptyBorderedButton />
         </div>
     );
     };
 
 export default Sidebar;
+
+
+const EmptyBorderedButton = () => {
+    return (
+        <Button className="bg-transparent hover:cursor-default hover:bg-transparent rounded-none border-r-4 border-r-gray-900"></Button>
+    )
+}

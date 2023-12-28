@@ -16,7 +16,7 @@ const Box: React.FC<BoxProps> = ({ title, github_link, technologies, children }:
     <div className="max-w-md mx-auto rounded-lg shadow-lg overflow-hidden">
       <div className="flex flex-row justify-between bg-[#2E2E2E] text-white text-lg font-semibold p-2">
         <div className="flex gap-x-2">
-            <AppWindowIcon />
+            <AppWindowIcon className="text-[#e3ff00]" />
             {title}
             <div className="text-xs font-thin text-gray-500 pt-1.5 pl-0.5 italic truncate">
               {technologies}

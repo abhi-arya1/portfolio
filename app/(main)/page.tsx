@@ -48,13 +48,13 @@ export default function Home() {
           <Image
           src={hero_image}
           alt="Me!"
+          id="experience"
           width={IMAGE_DIMENSION}
           height={IMAGE_DIMENSION}
           />
 
           <div
           className="text-3xl font-bold pt-25 underline"
-          id="experience"
           >
             experience...
           </div>
