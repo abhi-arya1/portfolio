@@ -6,10 +6,14 @@ import Image from "next/image";
 import Typewriter from 'typewriter-effect';
 import hero_image from "@/public/hero_image.png"
 import Projects from "@/components/projects";
+import Sidebar from "@/components/sidebar";
+import ContentPane from "@/components/content_pane";
+import { useState } from "react";
 
 
 export default function Home() {
   const IMAGE_DIMENSION = 200;
+  const [activePane, setActivePane] = useState<string>('');
 
   return (
       <div className="flex flex-col min-h-screen">
@@ -53,14 +57,14 @@ export default function Home() {
           >
             experience...
           </div>
-          <p className="italic">
-            coming soon...
-          </p>
+          <div className="flex p-5">
+              <Sidebar setActivePane={setActivePane} />
+              <ContentPane activePane={activePane} />
+          </div>
 
           <div id="projects">
             <Projects />
           </div>
-
 
         </div>
 
