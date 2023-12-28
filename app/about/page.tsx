@@ -9,7 +9,11 @@ export default function Home() {
 
         <div className="h-full flex flex-col items-center justify-center
         md:justify-start text-center gap-y-8 flex-1 px-6 pb-10 pt-20">
-          About Me
+
+          <div className="font-extrabold text-6xl underline pt-2">
+            about me
+          </div>
+
         </div>
         
         <Footer />

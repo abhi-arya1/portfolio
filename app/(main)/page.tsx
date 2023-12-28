@@ -3,6 +3,7 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
+import Typewriter from 'typewriter-effect';
 
 import hero_image from "@/public/hero_image.png"
 
@@ -18,7 +19,17 @@ export default function Home() {
         md:justify-start text-center gap-y-8 flex-1 px-6 pb-10 pt-20">
 
           <div className="font-extrabold text-6xl">
-          hi, i&apos;m <div className="underline italic pt-2">abhigyan arya</div>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString("hi, i'm<br>")
+                .typeString('<span style="text-decoration: underline; font-weight: bold;">abhigyan arya</span>')
+                .typeString('.')
+                .callFunction(() => {
+                  typewriter.stop();
+                })
+                .start();
+            }}
+          />
           </div>
           <div className="font-bold text-xl">
           • computer science & engineering student at uc irvine <br />
