@@ -24,10 +24,11 @@ const Navbar = () => {
         >
           <Home className="h-4 w-4" />
         </Button>
+
         <Button
         onClick={() => {router.push("/#experience")}}
         variant="ghost"
-        className="hover:text-[#00e9fe]"
+        className="hidden md:inline-flex hover:text-[#00e9fe]"
         >
           <FlaskConical className="h-4 w-4" />
           <p className="pl-2">experience</p>
@@ -36,7 +37,7 @@ const Navbar = () => {
         <Button
         onClick={() => {router.push("/#projects")}}
         variant="ghost"
-        className="hover:text-[#00e9fe]"
+        className="hidden md:inline-flex hover:text-[#00e9fe]"
         >
           <Code className="h-4 w-4" />
           <p className="pl-2">projects</p>

@@ -10,7 +10,7 @@ const ContentPane: React.FC<ContentPaneProps> = ({ activePane }) => {
         case 'tc':
             return (
                 <div className="w-full pl-4 break-words">
-                    <h1 className="text-left text-lg font-extrabold">Lead Developer and Co-Founder @ <a className="text-[#00e9fe]">Team Cartographer</a></h1>
+                    <h1 className="text-left font-extrabold">Lead Developer and Co-Founder @ <a className="text-[#00e9fe]">Team Cartographer</a></h1>
                     <h2 className="italic text-left pt-1 text-[#6a6a6a]">Sep 2022 -&gt; Present</h2>
                     <div className="text-left pt-4">
                         <li className="arrow-li flex items-start">
