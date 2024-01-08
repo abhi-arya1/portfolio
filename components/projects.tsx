@@ -18,10 +18,9 @@ const Projects = () => {
         technologies="NextJS, Tailwind, Convex, Clerk"
         >
             <p>
-            Note-taking app built with <a className="text-[#30fe00]">NextJS, TypeScript, TailwindCSS,</a>
-            <a className="text-[#30fe00]">Convex, Clerk,</a> and <a className="text-[#30fe00]">Edgestore</a>
+            Adaptive Markdown-based Note Taking application (inspired by Notion). 
             </p>
-            <li className="arrow-li italic pt-2">more info coming soon...</li>
+            <li className="arrow-li pt-2">Built User-Authentication with Clerk and a custom document structure with ConvexDB</li>
         </Box>
 
         <div className="p-5" />
@@ -31,10 +30,9 @@ const Projects = () => {
         github_link="https://github.com/abhi-arya1/copilot-avionics-module"
         technologies="Arduino, C++, Data Filtration Systems"
         >
-            <p>
-            Adaptive Central Flight Computer built with <a className="text-[#30fe00]">Teensy/Arduino</a> & <a className="text-[#30fe00]">C++</a>
-            </p>
-            <li className="arrow-li italic pt-2">more info coming soon...</li>
+            <p className="pb-3">
+            Adaptiv & Customizable Central Flight Computer built with Teensy 4.1, a 9-DoF IMU, Altimeter, and Data-Logging SD Card Module.</p> 
+            <li className="arrow-li pt-2">Tuned automatic launch detection, Kalman Filters, and more data-logging systems.</li>
         </Box>
 
         </div> 

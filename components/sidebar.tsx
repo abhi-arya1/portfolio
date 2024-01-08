@@ -9,6 +9,7 @@ const Sidebar: React.FC<SidebarProps> = ({ setActivePane }) => {
     const [activeButton, setActiveButton] = useState<string | null>('cs');
 
     const buttons = [
+        { id: 'suits', name: 'NASA Johnson Space Center' },
         { id: 'cs', name: 'UCI CubeSat' },
         { id: 'tc', name: 'Team Cartographer' },
         { id: 'uci-ss', name: 'UCI School of Social Sciences' },
