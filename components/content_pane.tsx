@@ -63,7 +63,7 @@ const ContentPane: React.FC<ContentPaneProps> = ({ activePane }) => {
                         Led development of a Flask/NextJS Stack with a custom Flask Server and API to efficiently process and display data.
                     </li>
                     <li className="arrow-li flex items-start">
-                        Built image processing and filtering algorithms with OpenCV/OpenAI/Python to integrate with HoloLens2 Devices for usage with NASA's Artemis Program
+                        Built image processing and filtering algorithms with OpenCV/OpenAI/Python to integrate with HoloLens2 Devices for usage with NASA&apos;s Artemis Program
                     </li>
                     <li className="arrow-li flex items-start">
                         Configured build automation through Bash and Powershell Scripting cutting configuration times by over 70%.
