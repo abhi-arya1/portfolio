@@ -6,7 +6,7 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ setActivePane }) => {
-    const [activeButton, setActiveButton] = useState<string | null>('cs');
+    const [activeButton, setActiveButton] = useState<string | null>('suits');
 
     const buttons = [
         { id: 'suits', name: 'NASA Johnson Space Center' },
