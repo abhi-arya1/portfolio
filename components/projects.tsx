@@ -31,7 +31,7 @@ const Projects = () => {
         technologies="Arduino, C++, Data Filtration Systems"
         >
             <p className="pb-3">
-            Adaptiv & Customizable Central Flight Computer built with Teensy 4.1, a 9-DoF IMU, Altimeter, and Data-Logging SD Card Module.</p> 
+            Adaptive & Customizable Central Flight Computer built with Teensy 4.1, a 9-DoF IMU, Altimeter, and Data-Logging SD Card Module.</p> 
             <li className="arrow-li pt-2">Tuned automatic launch detection, Kalman Filters, and more data-logging systems.</li>
         </Box>
 
