@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Typewriter from 'typewriter-effect';
-import hero_image from "@/public/hero_image.png"
+import image from "@/public/image.png"
 import Projects from "@/components/projects";
 import Sidebar from "@/components/sidebar";
 import ContentPane from "@/components/content_pane";
@@ -46,11 +46,12 @@ export default function Home() {
           </div>
 
           <Image
-          src={hero_image}
+          src={image}
           alt="Me!"
           id="experience"
           width={IMAGE_DIMENSION}
           height={IMAGE_DIMENSION}
+          className="rounded-full"
           />
 
           <div
