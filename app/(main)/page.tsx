@@ -19,7 +19,7 @@ export default function Home() {
       <div className="flex flex-col min-h-screen font-mono">
         <Navbar />
 
-        <div className="h-full flex flex-col items-center justify-center
+        <div id='home' className="h-full flex flex-col items-center justify-center
         md:justify-start text-center gap-y-8 flex-1 px-6 pb-20 pt-20">
 
           <div className="font-extrabold text-6xl p-3">

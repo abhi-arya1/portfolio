@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className="flex gap-x-2">
         <Button
-        onClick={() => {router.push("/")}}
+        onClick={() => {router.push("/#home")}}
         className="bg-[#101010] hover:bg-[#1b1b1b] hover:text-[#00e9fe]"
         >
           <Home className="h-4 w-4" />
