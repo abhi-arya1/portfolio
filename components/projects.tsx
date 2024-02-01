@@ -12,6 +12,20 @@ const Projects = () => {
         </div>
         <div className="flex flex-col pt-5">
 
+        <Box 
+        title="ZotConnect"
+        github_link="https://github.com/abhi-arya1/zotconnect"
+        technologies="Google Gemini, SQL, API Design"
+        >
+            <p className="pb-3">
+            <li className="arrow-li pt-2">Engineered intelligent backend system with Convex with relational query API file upload serialization and Two-Factor Authentication.</li>
+            <li className="arrow-li pt-2">Developed LLM Resume/CV Review with Google Cloud Vertex/Gemini and trained model to iteratively learn in-use</li>
+            <li className="arrow-li pt-2">Deployed job application, tracking, and resume review features to full production in just 40 hours, and currently growing user base.</li>
+            </p>
+
+        </Box>
+        <div className="p-5" />        
+
         <Box
         title="Jotster"
         github_link="https://github.com/abhi-arya1/jotster"
