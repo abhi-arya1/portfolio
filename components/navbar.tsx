@@ -13,14 +13,14 @@ const Navbar = () => {
 
   return (
     <div className={cn(
-      "z-50 bg-[#000000] fixed top-0 flex flex-row justify-between items-center w-full p-2.5",
-      scrolled && "border-b border-[#3F3F3F] shadow-sm transition-opacity"
+      "z-50 bg-[#def2f1] fixed top-0 flex flex-row justify-between items-center w-full p-2.5",
+      scrolled && "border-b border-[#2b7a78] shadow-sm transition-opacity"
     )}>
 
       <div className="flex gap-x-2">
         <Button
         onClick={() => {router.push("/#home")}}
-        className="bg-[#101010] hover:bg-[#1b1b1b] hover:text-[#00e9fe]"
+        className="bg-[#2b7a78] hover:bg-[#17252a] hover:text-[#def2f1]"
         >
           <Home className="h-4 w-4" />
         </Button>
@@ -28,7 +28,7 @@ const Navbar = () => {
         <Button
         onClick={() => {router.push("/#experience")}}
         variant="ghost"
-        className="hidden md:inline-flex hover:text-[#00e9fe]"
+        className="hidden md:inline-flex hover:text-[#17252a]"
         >
           <FlaskConical className="h-4 w-4" />
           <p className="pl-2">experience</p>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <Button
         onClick={() => {router.push("/#projects")}}
         variant="ghost"
-        className="hidden md:inline-flex hover:text-[#00e9fe]"
+        className="hidden md:inline-flex hover:text-[#17252a]"
         >
           <Code className="h-4 w-4" />
           <p className="pl-2">projects</p>
@@ -45,10 +45,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-x-2">
-        <SocialIcons color="#00e9fe" />
+        <SocialIcons />
         <Button
         onClick={() => open("https://drive.google.com/file/d/1sM6VJEPz_oar718KaT88HC0niAlitGLl/view?usp=sharing")}
-        className="bg-[#101010] hover:bg-[#1b1b1b] hover:text-[#00e9fe]"
+        className="bg-[#2b7a78] hover:bg-[#17252a] hover:text-[#def2f1]"
         >
           <ScrollTextIcon className="h-4 w-4" />
           <p className="pl-2">resume</p>

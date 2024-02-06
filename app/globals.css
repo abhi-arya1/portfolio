@@ -10,9 +10,9 @@ body,
 }
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
+  --foreground-rgb: 43, 122, 120;
+  --background-start-rgb: 222, 242, 241;
+  --background-end-rgb: 222, 242, 241;
 }
 
 .arrow-li {
@@ -22,7 +22,6 @@ body,
 .arrow-li::before {
   font-family: 'Courier New', Courier, monospace;
   content: '>>>';
-  color: red;
   margin-right: 0.5rem;
 }
 
