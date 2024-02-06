@@ -49,19 +49,23 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col h-3/6 bg-[#3aafa9] text-[#17252a] p-5 pb-9">
-            <h1 className="text-3xl font-bold pb-4">experiences</h1>
+            <h1 className="text-3xl font-bold pb-4">experiences...</h1>
             <Experiences />
         </div>
 
         <div id='projects' className="flex flex-col h-3/6 bg-[#2b7a78] text-white p-5 pb-9">
-            <h1 className="text-3xl font-bold pb-4">projects</h1>
+            <h1 className="text-3xl font-bold pb-4">projects...</h1>
             <Projects />
         </div>
         
         <div id='whoami' className="flex flex-col h-3/6 bg-[#17252a] text-[#feffff] p-5 pb-9">
-            <h1 className="text-3xl font-bold">whoami</h1>
+            <h1 className="text-3xl font-bold">~$ whoami</h1>
             <p className="p-4 w-2/3">
-              Hey! My About Section is coming very soon! You can contact me via abhigyaa[AT]uci.edu until then!
+              Hey! I&apos;m Abhi, a First-Year CSE Student at the University of California, Irvine. 
+              I&apos;ve got extensive experience both with full stack frameworks such as Flask, NodeJS, NextJS, etc. 
+              I also have worked extensively with embedded software development in C++, as well as 3D Data Visualizations in Python!
+              I&apos;m a motivated learner and eager to expand my horizons whenever I get the chance!<br/><br/>
+              Want to chat? You can contact me via abhigyaa[AT]uci.edu!
             </p>
             <span className="pl-4 w-2/3">[ Please replace the <i>[AT]</i> with <i>@</i>, to prevent spam ]</span>
             <div className="pt-8 flex flex-col md:flex-row items-center justify-center gap-y-8 gap-x-4">

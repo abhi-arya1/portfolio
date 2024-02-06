@@ -17,9 +17,15 @@ const Projects = () => {
                     </div>
                 </div>
                 <h2 className="bg-[#17252a] p-2 text-sm rounded-xl">🏆 Best Overall, IrvineHacks 2024</h2>
-                <ul className="pt-3">
+                <ul className="pt-3 w-2/3">
                     <li className="arrow-li flex items-start">
-                        Details Soon...
+                    Engineered intelligent backend system with Convex with relational query API file upload serialization and Two-Factor Authentication.
+                    </li>
+                    <li className="arrow-li flex items-start pt-2">
+                    Developed LLM Resume/CV Review with Google Cloud Vertex/Gemini and trained model to iteratively learn in-use
+                    </li>
+                    <li className="arrow-li flex items-start pt-2">
+                    Deployed job application, tracking, and resume review features to full production in just 40 hours, and currently working with UCI ICS Council to further development of the app while growing user base.
                     </li>
                 </ul>
                 <div className="pt-4 flex flex-wrap gap-y-3 items-center justify-center">
@@ -38,9 +44,14 @@ const Projects = () => {
                         <GitHub />
                     </div>
                 </div>
-                <ul className="pt-3">
-                    <li className="arrow-li flex items-start">
-                        Details Soon...
+                <ul className="pt-3 w-2/3">
+                    <li className="arrow-li flex items-start pt-2">
+                    Developed a compact and power-efficient Central Flight Computer for amateur rocket flight, incorporating Teensy 4.1, 9-DoF IMU,
+                    and Altimeter with Data Logging features, focusing on space and power efficiency.
+                    </li>
+                    <li className="arrow-li flex items-start pt-2">
+                    Created firmware using an optimized state-machine architecture in C++, including a framework for user configuration and support
+                    for various flight types.
                     </li>
                 </ul>
                 <div className="pt-4 flex flex-wrap gap-y-3 items-center justify-center">
