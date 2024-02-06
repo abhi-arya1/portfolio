@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useScrollTop } from "@/hooks/scroll_hook";
 import { cn } from "@/lib/utils";
 import SocialIcons from "./social_icons";
+import { Person } from "@mui/icons-material";
 
 const Navbar = () => {
   const router = useRouter();
@@ -17,7 +18,7 @@ const Navbar = () => {
       scrolled && "border-b border-[#2b7a78] shadow-sm transition-opacity"
     )}>
 
-      <div className="flex gap-x-2">
+      <div className="flex flex-row gap-x-2">
         <Button
         onClick={() => {router.push("/#home")}}
         className="bg-[#2b7a78] hover:bg-[#17252a] hover:text-[#def2f1]"
@@ -41,6 +42,15 @@ const Navbar = () => {
         >
           <Code className="h-4 w-4" />
           <p className="pl-2">projects</p>
+        </Button>
+
+        <Button
+        onClick={() => {router.push("/#whoami")}}
+        variant="ghost"
+        className="hidden md:inline-flex hover:text-[#17252a]"
+        >
+          <Person className="h-4 w-4" />
+          <p className="pl-2">about</p>
         </Button>
       </div>
 
