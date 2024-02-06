@@ -10,7 +10,7 @@ const Experiences = () => {
                         <GitHub />
                     </div>
                 </div>
-                <h2 className="">SUITS Project Manager and Full Stack Developer Intern, <i>Dec 2023 -> Jun 2024</i></h2>
+                <h2 className="">SUITS Project Manager and Full Stack Developer Intern, <i>Dec 2023 -{'>'} Jun 2024</i></h2>
                 <ul className="pt-3 w-2/3">
                     <li className="arrow-li flex items-start">
                     Developed modern frontend UI and custom API library for a Local Mission Control App with NextJS and React in TypeScript. Managing GitHub, Code Reviews, AR Integration, and Test Automation strategies for both frontend and backend frameworks.
