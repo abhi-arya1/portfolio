@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex text-sm flex-col min-h-screen font-mono">
         <Navbar />
 
-        <div id='home' className="h-full flex flex-col md:flex-row items-center justify-center pb-10 text-center gap-y-8 flex-1 px-6 pt-20">
+        <div id='home' className="h-full flex flex-col md:flex-row items-center justify-center pb-20 text-center gap-y-8 flex-1 px-6 pt-24">
 
           <div className="p-3">
             <Typewriter
@@ -44,34 +44,34 @@ export default function Home() {
           id='experience' 
           width={IMAGE_DIMENSION}
           height={IMAGE_DIMENSION}
-          className="rounded-full outline outline-4 outline-[#17252a]"
+          className="rounded-full outline outline-4 outline-[#17252a] drop-shadow-2xl"
           />
         </div>
 
         <div className="flex flex-col h-3/6 bg-[#3aafa9] text-[#17252a] p-5 pb-9">
-            <h1 className="text-3xl font-bold pb-4">experiences...</h1>
+            <h1 className="text-3xl font-bold pb-8">experiences...</h1>
             <Experiences />
         </div>
 
-        <div id='projects' className="flex flex-col h-3/6 bg-[#2b7a78] text-white p-5 pb-9">
-            <h1 className="text-3xl font-bold pb-4">projects...</h1>
+        <div className="flex flex-col h-3/6 bg-[#2b7a78] text-white p-5 pb-9">
+            <h1 className="text-3xl font-bold pb-8">projects...</h1>
             <Projects />
         </div>
         
         <div id='whoami' className="flex flex-col h-3/6 bg-[#17252a] text-[#feffff] p-5 pb-9">
             <h1 className="text-3xl font-bold">~$ whoami</h1>
-            <p className="p-4 w-2/3">
+            <p className="p-4 lg:w-2/3">
               Hey! I&apos;m Abhi, a First-Year CSE Student at the University of California, Irvine. 
               I&apos;ve got extensive experience both with full stack frameworks such as Flask, NodeJS, NextJS, etc. 
               I also have worked extensively with embedded software development in C++, as well as 3D Data Visualizations in Python!
               I&apos;m a motivated learner and eager to expand my horizons whenever I get the chance!<br/><br/>
-              Want to chat? You can contact me via abhigyaa[AT]uci.edu!
+              Want to chat? You can contact me via <a href="mailto:abhigyaa@uci.edu" className="underline">abhigyaa[AT]uci.edu</a>!
             </p>
             <span className="pl-4 w-2/3">[ Please replace the <i>[AT]</i> with <i>@</i>, to prevent spam ]</span>
             <div className="pt-8 flex flex-col md:flex-row items-center justify-center gap-y-8 gap-x-4">
               <div className="flex flex-col items-start justify-start">
                 <Image 
-                className="rounded-3xl"
+                className="rounded-3xl md:hover:w-[340px] md:hover:h-[340px] drop-shadow-2xl transition-all ease-in-out"
                 src={adc}
                 width={300}
                 height={300}
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-start justify-start">
                 <Image 
-                className="rounded-3xl"
+                className="rounded-3xl md:hover:w-[440px] md:hover:h-[330px] drop-shadow-2xl transition-all ease-in-out"
                 src={zotconnect}
                 width={405}
                 height={300}
