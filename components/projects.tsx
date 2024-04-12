@@ -50,13 +50,15 @@ const Projects = () => {
                 <h2 className="bg-[#17252a] p-2 text-sm rounded-xl hover:bg-[#2b7a78] hover:text-white hover:underline hover:cursor-pointer transition-all ease-in-out" onClick={() => {window.open("https://devpost.com/software/coauthor", '_blank')}}>🏆 Best First-Time Hack, SFHacks 2024</h2>
                 <ul className="pt-3 md:w-2/3">
                     <li className="arrow-li flex items-start">
-                    Engineered intelligent backend system with Convex with relational query API file upload serialization and Two-Factor Authentication.
+                    Created data pipeline with FastAPI, Convex, ngrok, Selenium, Google Gemini, and Clerk that authenticates users to push workspace
+                    data to the cloud, with a Fireworks AI and Gemini custom chatbot model that trains iteratively when in use.
                     </li>
                     <li className="arrow-li flex items-start pt-2">
-                    Developed LLM Resume/CV Review with Google Cloud Vertex/Gemini and trained model to iteratively learn in-use
+                    Developed workspace sharing feature using WebRTC that allows for users to collaborate in a Google-Docs-like environment, while
+mantaining data security through 2FA systems.
                     </li>
                     <li className="arrow-li flex items-start pt-2">
-                    Deployed job application, tracking, and resume review features to full production in just 40 hours, and currently working with UCI ICS Council to further development of the app while growing user base.
+                    Fully deployed site from end-to-end in just 40 hours.
                     </li>
                 </ul>
                 <div className="pt-4 flex flex-wrap gap-y-3 items-center justify-center">
