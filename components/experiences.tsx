@@ -16,16 +16,13 @@ const Experiences = () => {
                     <i className="underline">Dec 2023 -{'>'} Jun 2024</i>
                 </div>
                 <ul className="pt-3 md:w-2/3">
-                    <li className="arrow-li flex items-start">
-                    Developed modern frontend UI and custom API library for a Local Mission Control App with NextJS and React in TypeScript. Managing GitHub, Code Reviews, AR Integration, and Test Automation strategies for both frontend and backend frameworks.
-                    </li>
-                    <li className="arrow-li flex items-start pt-2">
-                    Built API Server and Data Pipeline with Flask and SQLite3 to interface with NASA Telemetry Streams for Mission Data, and building OpenCV & A* Pathfinding pipeline in Python with this server for HoloLens2 AR Devices
-                    </li>
-                    <li className="arrow-li flex items-start pt-2 pb-2">
-                    Invited to Test Week at Johnson Space Center in May 2024 and creating research paper on Space Environment Image Processing
-                    algorithms with Mentors at UC Irvine, Davis, & Merced.
-                    </li>
+                <li className="arrow-li flex items-start">Developed custom API library, database, and server to interact with multiple devices and GPS sensor data via a Raspberry Pi, as
+                well as UI/UX design for Mixed Reality in Unity.</li>
+                <li className="arrow-li flex items-start pt-2">Used Windows Device Portal API to create image dataset generation pipeline for Classifier-based Environemental Glare Reduction.</li>
+                <li className="arrow-li flex items-start pt-2 ">Developed Shell (Bash) and Powershell scripts to expedite deployment of app environment for Windows, MacOS, and Linux.</li>
+                <li className="arrow-li flex items-start pt-2 ">Managing GitHub, Code Reviews, AR Integration, and Test Automation strategies for both frontend and backend frameworks.</li>
+                <li className="arrow-li flex items-start pt-2 pb-2"> Invited to Test Week at Johnson Space Center in May 2024 and creating research paper on Space Environment Image Processing
+                algorithms with Mentors at UC Irvine, Davis, & Merced.</li>
                 </ul>
                 <div className="pt-4 w-2/3 flex flex-wrap gap-y-3 items-center justify-center">
                     {['REST API Development', 'Flask', 'TypeScript', 'Unity', 'C#', 'Python', 'Research', 'NextJS', 'UI/UX', 'Backend Optimization', 'Linux'].map((item, idx) => { return (
@@ -44,16 +41,21 @@ const Experiences = () => {
                     </div>
                 </div>
                 <div className="flex justify-between gap-x-2 md:w-2/3">
-                    <h2 className="flex md:w-2/3 underline">Avionics SDE Intern</h2>
+                    <h2 className="flex md:w-2/3 underline">Avionics Lead</h2>
                     <i className="underline">Sep 2023 -{'>'} Present</i>
                 </div>
                 <ul className="pt-3 md:w-2/3">
-                    <li className="arrow-li flex items-start">
-                    Sole first-year Avionics software engineer. Worked with Linux Cross Compilation, Mathematical 3D Sims and Rendering in Python/Matlab, Driver Software in C++, and development with Raspberry Pis.
-                    </li>
-                    <li id='projects' className="arrow-li flex items-start pt-2">
-                    Stuff in the works...coming soon...
-                    </li>
+                <li className="arrow-li flex items-start">Leading team of 12 engineers working on a 2U CubeSat, working towards preparing it for launch by 2027, through holding meetings
+                and labs weekly. Employed Agile project management system to keep development on-track.
+                </li>
+                <li className="arrow-li flex items-start pt-2">
+                Designed Raspberry Pi Cross Compilation Framework with Docker and Bash to reduce platform compatability issues and streamline
+                software development lifecycle, while working on embedded sensor software with C++
+                </li>
+                <li className="arrow-li flex items-start pt-2">
+                    Created GitHub workflow with pre-commit hooks and static testing to incorporate redundancy in production/launch-prepared
+                software, and urrently working on Golang scripts to expedite static testing suites.
+                </li>
                 </ul>
                 <div className="pt-4 w-2/3 flex flex-wrap gap-y-3 items-center justify-center">
                     {['C++', 'Operating Systems', 'Linux', 'F\' Software', 'Research', 'Raspberry Pi', 'Python', '3D Visualization'].map((item, idx) => { return (

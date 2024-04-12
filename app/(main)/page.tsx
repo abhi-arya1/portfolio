@@ -62,7 +62,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold">~$ whoami</h1>
             <p className="p-4 lg:w-2/3">
               Hey! I&apos;m Abhi, a First-Year CSE Student at the University of California, Irvine. 
-              I&apos;ve got extensive experience both with full stack frameworks such as Flask, NodeJS, NextJS, etc. 
+              I&apos;ve got extensive experience both with full stack frameworks such as FastAPI, NodeJS, NextJS, etc. 
               I also have worked extensively with embedded software development in C++, as well as 3D Data Visualizations in Python!
               I&apos;m a motivated learner and eager to expand my horizons whenever I get the chance!<br/><br/>
               Want to chat? You can contact me via <a href="mailto:abhigyaa@uci.edu" className="underline">abhigyaa[AT]uci.edu</a>!
