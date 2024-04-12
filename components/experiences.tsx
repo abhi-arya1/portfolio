@@ -57,7 +57,7 @@ const Experiences = () => {
                 software, and urrently working on Golang scripts to expedite static testing suites.
                 </li>
                 </ul>
-                <div className="pt-4 w-2/3 flex flex-wrap gap-y-3 items-center justify-center">
+                <div id="projects" className="pt-4 w-2/3 flex flex-wrap gap-y-3 items-center justify-center">
                     {['C++', 'Operating Systems', 'Linux', 'F\' Software', 'Research', 'Raspberry Pi', 'Python', '3D Visualization'].map((item, idx) => { return (
                         <div key={idx} className="p-1">
                             <span className="bg-white p-[0.4rem] rounded-lg hover:bg-[#3aafa9] hover:text-white hover:underline transition-all ease-in-out">{item}</span>
